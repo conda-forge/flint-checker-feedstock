@@ -1,11 +1,10 @@
 schema_version: 1
 
 context:
-  name: flint-checker
   version: 0.1.0
 
 package:
-  name: ${{ name|lower }}
+  name: flint-checker
   version: ${{ version }}
 
 source:
@@ -13,7 +12,7 @@ source:
   sha256: ec865ec5cad191c7fc9c7c6d5007754372696a708825627383913367f3ef8b7f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -36,4 +35,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
